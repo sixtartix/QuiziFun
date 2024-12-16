@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Arduino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu Arduino</h1>
+        <div id="arduino-status">Statut de l'Arduino : Non connecté</div>
+        <div id="question-form">
+            <h2>Ajouter une question</h2>
+            <form id="add-question-form">
+                <label for="theme">Thème :</label>
+                <select id="theme" name="theme">
+                    <option value="jeunes">Jeunes</option>
+                    <option value="ados">Ados</option>
+                    <option value="adultes">Adultes</option>
+                </select>
+                <label for="question">Question :</label>
+                <input type="text" id="question" name="question">
+                <label for="options">Nombre de propositions :</label>
+                <select id="options" name="options">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                </select>
+                <div id="answers-section">
+                    <!-- Les champs de réponse seront ajoutés ici -->
+                </div>
+                <button type="submit">Ajouter</button>
+            </form>
+        </div>
+        <div id="questions-list">
+            <h2>Liste des questions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thème</th>
+                        <th>Question</th>
+                        <th>Réponses</th>
+                    </tr>
+                </thead>
+                <tbody id="questions-table-body">
+                    <!-- Les questions seront affichées ici -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
