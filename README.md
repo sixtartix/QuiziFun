@@ -100,7 +100,7 @@ _(Bientôt disponible)_
 
 ## 🤝 Contributeurs
 
-- **Dorian Guerin**, Augustin, Nathan - Concepteurs et développeurs principaux.
+- **Dorian**, **Augustin**, **Nathan** - Concepteurs et développeurs principaux.
 - **Équipe Lycée Tocqueville STI2D** - Partenaires du projet.
 
 ---
