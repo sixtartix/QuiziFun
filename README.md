@@ -21,7 +21,7 @@ Bienvenue dans le projet **QuiziFun**, un jeu éducatif et divertissant combinan
    - Allumez les manettes et connectez-les via Bluetooth au système.
    - Chargez ou créez un ensemble de questions via le site web dédié.
 2. **Déroulement** :
-   - L’Arduino pose une question via les enceintes.
+   - La raspberry pose une question via les enceintes.
    - Les LEDs des boutons poussoirs s’allument pour représenter les options (1, 2, 3 ou 4 choix).
    - Les joueurs répondent en appuyant sur le bouton correspondant à leur réponse.
 3. **Attribution des Points** :
@@ -59,7 +59,7 @@ Bienvenue dans le projet **QuiziFun**, un jeu éducatif et divertissant combinan
    - Synchronisez-les via Bluetooth avec le système Raspberry.
 
 4. **Personnaliser les Questions :**
-   - Branchez la radberry à votre PC.
+   - Branchez la raspberry à votre PC.
    - Accédez au site web fourni dans le projet.
    - Ajoutez ou modifiez vos questions et réponses directement en ligne.
 
